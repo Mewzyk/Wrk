@@ -17,7 +17,7 @@ def createQuarter(listInput, qtr, yr):
         else:
             quarter[key] = in0[key]
     
-    quarter['key'] = str(yr) + ' ' + str(qtr)
+    quarter['key'] = str(yr) + '!' + str(qtr)
     
     output.append(quarter)
     
